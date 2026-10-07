@@ -51,7 +51,7 @@ ui <- function(request) {
                   fluidRow(column(6, align = "center", offset = 3,
                                   actionButton(inputId = "creatorClick",
                                                                                 label = "I want to host", icon = icon("chalkboard-user"),
-                                                                                onclick ="window.open('https://estimelee.shinyapps.io/create/?tab=create', '_blank')",
+                                                                                onclick ="window.open('https://01a117a2-bb04-4c71-60d2-510f8c696f3a.share.connect.posit.cloud/?tab=create', '_blank')",
                                                                                 class="btn-lg",
                                                                                 style="color: #ffffff; background-color: #72d0fc; border-color: #c34113;
 >                                border-radius: 20px;
@@ -63,7 +63,7 @@ ui <- function(request) {
                   fluidRow(column(6, align = "center", offset = 3,
                                               actionButton(inputId = "playerClick",
                                                label = "I want to play", icon = icon("gamepad"),
-                                               onclick ="window.open('https://estimelee.shinyapps.io/play/?tab=rules', '_blank')",
+                                               onclick ="window.open('https://01a117a4-3827-d946-d67a-1ec3184544a5.share.connect.posit.cloud/?tab=rules', '_blank')",
                                                class="btn-lg",style="color: #ffffff; background-color: #fc72e3; border-color: #c34113;
 >                                border-radius: 20px;
 >                                border-width: 4px;
